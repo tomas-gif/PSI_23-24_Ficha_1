@@ -13,41 +13,50 @@ Escreve as respostas dentro dos blocos correspondentes. Substitui as reticência
 ## E1 - Responde às seguintes questões (4v)
 
     1 - As classes são tipos de referência? 
-        ...
-    2 - (Classes/Instâncias) definem o que algo pode fazer e guardar, enquanto uma
-        (classe/instância) é um objeto específico que contém o seu próprio estado 
+        .. Sim
+    2 - (Classes/) definem o que algo pode fazer e guardar, enquanto uma
+        (/instância) é um objeto específico que contém o seu próprio estado 
         (Apaga a opção entre parênteses errada)
     3 - Indica três tipos de membros que podem pertencer a uma classe 
-        ...
+        ... Variáveis
+      Métodos
+  Construtores
     4 - Se algo é static então é partilhado por todas as instâncias desse tipo específico? 
-        ...
+        ... sim
     5 - Como se chamam os métodos especiais que inicializam uma classe? 
-        ...
+        ... construtores
     6 - De onde podes aceder a algo private? 
-        ...
+        ...Membro apenas acessível dentro da classe
+Membros são private por omissão
+Boa prática ser explícito e indicar sempre a visibilidade
+
     7 - De onde podes aceder a algo public? 
-        ... 
+        ... Membro acessível a partir de qualquer sítio
+
     8 - De onde podes aceder a algo internal? 
         ...
+        ...Membro acessível dentro do mesmo projeto
+
 
 ## E2 - Explica por palavras tuas o significado dos seguintes termos (4v)
 
     1 - Classe
-        ...
+        ... categorias gerais de objetos
     2 - Objeto / instância
-        ...
+        ... são casos especificos de objeto
     3 - Método
-        ...
+        ... permitem que o código externo manipule instâncias
     4 - Construtor
-        ...
+        ...Inicializam estado de novas instâncias
+
     5 - Variável de instância
-        ...
+        ... Definem de cada uma instâmcia da classe
     6 - Variável local
-        ...
+        ... Variável local "oculta" variável de instância
     7 - Overloading
-        ...
+        ... Múltiplos de métodos com o mesmo nome
     8 - Encapsulação
-        ...
+        ... os objetos devem manter o controlo e intigridade dos seus dados as classes devem manter o seu estado privado para oferecer métodos publicos
 
 ## E3 - Cria o seguinte programa de consola (12v)
 
